@@ -1,0 +1,7 @@
+version: '2'
+services:
+ cosmopolitan-lua:
+  image: marcelmaatkamp/cosmopolitan-lua:1.0
+  tty: true
+  build:
+   context: .
